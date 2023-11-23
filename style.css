@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.feature {
+    flex: 0 1 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
